@@ -1,0 +1,14 @@
+{
+  "tool": "generate_pie_chart",
+  "args": {
+    "data": [
+      {"category": "通过", "value": 11},
+      {"category": "失败", "value": 3}
+    ],
+    "innerRadius": 0.5,
+    "title": "安全测试整体通过率分布",
+    "theme": "default",
+    "width": 600,
+    "height": 400
+  }
+}

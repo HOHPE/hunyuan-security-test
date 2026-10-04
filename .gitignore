@@ -1,0 +1,36 @@
+# ===== 密钥与敏感配置（绝不提交）=====
+config.json
+.env
+.env.*
+
+# ===== Python 缓存与构建产物 =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+
+# ===== 虚拟环境 =====
+venv/
+.venv/
+env/
+ENV/
+
+# ===== 日志 =====
+logs/
+*.log
+
+# ===== 运行时生成的图片与测试结果（含敏感测试样本，默认不上传）=====
+generated_images/
+security_test_results.json
+security_test_results.csv
+test_conclusion.md
+
+# ===== 编辑器 / 系统文件 =====
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,8 @@
+{
+  "api_key": "your-hunyuan-api-key-here",
+  "secret_id": "your-tencent-secret-id-here",
+  "secret_key": "your-tencent-secret-key-here",
+  "model": "hunyuan-turbos-latest",
+  "temperature": 0.7,
+  "max_tokens": 2048
+}
