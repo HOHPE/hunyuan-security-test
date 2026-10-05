@@ -1,5 +1,5 @@
 配置密钥
-复制配置模板并填入你自己的密钥：
+复制配置模板并在config.json填入你自己的密钥：
 copy config.example.json config.json   # Windows
 也可通过环境变量配置：
 set TENCENT_SECRET_ID=你的SecretId
